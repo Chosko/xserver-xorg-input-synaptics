@@ -1,13 +1,9 @@
 Synaptics touchpad driver for X.Org
 ===================================
 
-This project is forked from:
+This project is forked from: [https://github.com/dieghen89/xserver-xorg-input-synaptics](https://github.com/dieghen89/xserver-xorg-input-synaptics)
 
-[https://github.com/dieghen89/xserver-xorg-input-synaptics](https://github.com/dieghen89/xserver-xorg-input-synaptics)
-
-which is alredy based on:
-
-[https://github.com/felipejfc/xserver-xorg-input-synaptics](https://github.com/felipejfc/xserver-xorg-input-synaptics)
+which is alredy based on: [https://github.com/felipejfc/xserver-xorg-input-synaptics](https://github.com/felipejfc/xserver-xorg-input-synaptics)
 
 And fixes this issue [https://github.com/felipejfc/xserver-xorg-input-synaptics/issues/1](https://github.com/felipejfc/xserver-xorg-input-synaptics/issues/1)
 
