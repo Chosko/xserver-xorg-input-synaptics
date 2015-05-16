@@ -1,7 +1,21 @@
 Synaptics touchpad driver for X.Org
 ===================================
 
-This is a fork from git://anongit.freedesktop.org/xorg/driver/xf86-input-synaptics
+This project is forked from:
+
+[https://github.com/dieghen89/xserver-xorg-input-synaptics](https://github.com/dieghen89/xserver-xorg-input-synaptics)
+
+which is alredy based on:
+
+[https://github.com/felipejfc/xserver-xorg-input-synaptics](https://github.com/felipejfc/xserver-xorg-input-synaptics)
+
+And fixes this issue [https://github.com/felipejfc/xserver-xorg-input-synaptics/issues/1](https://github.com/felipejfc/xserver-xorg-input-synaptics/issues/1)
+
+This driver has been tested on Ubuntu 15.04 with a Dell Inspiron 15 5000 series.
+
+Below is the original README from [felipejfc](https://github.com/felipejfc)
+
+
 
 ABOUT
 -----
