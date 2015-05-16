@@ -644,6 +644,12 @@ set_default_parameters(InputInfoPtr pInfo)
             (PACKAGE_VERSION_MAJOR * 10000 + PACKAGE_VERSION_MINOR * 100 +
              PACKAGE_VERSION_PATCHLEVEL);
 
+    /* read the parameters */
+    if (priv->synshm)
+        priv->synshm->version =
+            (PACKAGE_VERSION_MAJOR * 10000 + PACKAGE_VERSION_MINOR * 100 +
+             PACKAGE_VERSION_PATCHLEVEL);
+
     /* The synaptics specs specify typical edge widths of 4% on x, and 5.4% on
      * y (page 7) [Synaptics TouchPad Interfacing Guide, 510-000080 - A
      * Second Edition, http://www.synaptics.com/support/dev_support.cfm, 8 Sep
@@ -3203,6 +3209,8 @@ HandleState(InputInfoPtr pInfo, struct SynapticsHwState *hw, CARD32 now,
     Bool inside_active_area;
     Bool using_cumulative_coords = FALSE;
     Bool ignore_motion;
+
+    update_shm(pInfo, hw);
 
     update_shm(pInfo, hw);
 
